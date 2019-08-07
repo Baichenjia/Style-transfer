@@ -17,15 +17,20 @@ feature map分别求gram矩阵，再求其距离的平方和获得风格损失�
 
 ![avatar](misc/1.png)
 
-## 结果
-输入的Content图 ![avatar](img/turtle.jpg)  
+## 结果  
+- 输入的Content图      
+![avatar](img/turtle.jpg)  
 
-输入的Style图 ![avatar](img/kandinsky.jpg)
+- 输入的Style图  
+ ![avatar](img/kandinsky.jpg)
 
 输出的合成效果图:
-- 迭代1个周期(100 step): ![avatar](result/train_0.jpg)
-- 迭代5个周期: ![avatar](result/train_4.jpg)
-- 迭代10个周期: ![avatar](result/train_9.jpg)
+- 迭代1个周期(100 step):     
+![avatar](result/train_0.jpg)
+- 迭代5个周期:    
+![avatar](result/train_4.jpg)
+- 迭代10个周期:    
+![avatar](result/train_9.jpg)
 
 [1]:[https://raw.githubusercontent.com/tensorflow/docs/master/site/en/r2/tutorials/generative/style_transfer.ipynb]
 
