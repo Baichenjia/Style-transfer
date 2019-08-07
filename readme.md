@@ -1,6 +1,6 @@
 # Style transfer
 ## 参考
-[Tensorflow 官方教程][1] 风格迁移  
+Tensorflow 官方教程 风格迁移: https://raw.githubusercontent.com/tensorflow/docs/master/site/en/r2/tutorials/generative/style_transfer.ipynb   
 Image style transfer using convolutional neural networks. CVPR 2016
 
 ## 基本原理
@@ -32,5 +32,6 @@ feature map分别求gram矩阵，再求其距离的平方和获得风格损失�
 - 迭代10个周期:    
 ![avatar](result/train_9.jpg)
 
+## Reference
 [1]:[https://raw.githubusercontent.com/tensorflow/docs/master/site/en/r2/tutorials/generative/style_transfer.ipynb]
 
